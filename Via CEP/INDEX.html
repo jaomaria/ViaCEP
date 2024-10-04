@@ -8,18 +8,18 @@
 </head>
 <body>
     <form method="get" action=".">
-        <label>CEP:</label>
-        <input name="cep" type="cep" id="cep" value=""
-        size="10" maxlength="9" onblur="pesquisaCEP(this.value)"> <a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Nao sei meu CEP</a><br>
-        <label>Rua:</label>
+        <label>CEP:</label><br>
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" onblur="pesquisaCEP(this.value)"> 
+        <a href="https://buscacepinter.correios.com.br/app/endereco/index.php">Nao sei meu CEP</a><br>
+        <label>Rua:</label><br>
         <input name="rua" type="text" id="rua" size="64"><br>
-        <label>Bairro:</label>
+        <label>Bairro:</label><br>
         <input name="bairro" type="text" id="bairro" size="40"><br>
-        <label>Cidade:</label>
+        <label>Cidade:</label><br>
         <input name="cidade" type="text" id="cidade" size="32"><br>
-        <label>UF:</label>
+        <label>UF:</label><br>
         <input name="uf" type="text" id="uf" size="32"><br>
     </form>
-    <script href="script.js" ></script>
+    <script src="script.js" ></script>
 </body>
 </html>
